@@ -4,6 +4,7 @@
   "description": "Simple express rest api",
   "main": "app.js",
   "scripts": {
+    "nodemon": "npx nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,6 @@
   "homepage": "https://github.com/j0ker404/express-rest-simple#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
